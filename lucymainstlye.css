@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+#wrap {
+    width: 100%;
+}
+
+header, section, footer {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+/*header*/
+header {
+    height: 200px;
+}
+
+#in_header {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 300px;
+    height: 130px;
+    margin: 0 auto;
+    
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#menu_wrap {
+    width: 100%;
+    height: 70px;
+    float: left;
+    background-color: white;
+    font: 600 18px / 70px '';
+    text-align: center;
+    position: relative;
+    z-index: 9;
+}
+
+#menu_wrap > li {
+    width: 25%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+
+.sub_menu {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    display: none;
+}
+
+.sub_menu > li {
+    width: 100%;
+    height: 62.5px;
+    font-size: 16px;
+}
+
+.sub_menu a {
+    color: black;
+}
+
+#menu_wrap > li:hover {
+    background-color: aliceblue;
+}
+
+
+.sub_menu > li:hover {
+    background-color: aliceblue;
+}
+
+/*section1*/
+
+#sec1 {
+    height: 800px;
+    background-color: #cccccc;
+}
+
+#sec1 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#container {
+    width: 1200px;
+    background-color: #c6c6c6;
+    margin: 0 auto;
+}
+
+.con {
+    width: 262.5px;
+    height: 262.5px;
+    background-color: #c1c1c1;
+    float: left;
+    border-radius: 50%;
+    margin: 50px 50px 50px 0;
+    box-sizing: border-box;
+}
+
+.con:nth-child(1) {
+   background: url(img/yepro.png) no-repeat center / cover;
+}
+
+.con:nth-child(2) {
+    background: url(img/yopepro.png) no-repeat center / cover;
+}
+
+.con:nth-child(3) {
+    background: url(img/wonpro.png) no-repeat center / cover;
+}
+
+.con:last-child {
+    margin-right: 0;
+    background: url(img/gwangpro.png) no-repeat center / cover;
+}
+
+#con_wrap {
+    width: 1200px;
+    height: 1700px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 386.666px;
+    height: 100%;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.content:last-child {
+    margin-right: 0;
+}
+
+.long {
+    width: 100%;
+    height: 600px;
+    background-color: #aaaaaa;
+    float: left;
+}
+
+.long img {
+    width: 100%;
+    height: 100%;
+}
+
+.short {
+    width: 100%;
+    height: 500px;
+    background-color: #aaaaaa;
+    float: left;
+}
+
+.short img {
+    width: 100%;
+    height: 100%;
+}
+
+.mar {
+    margin: 50px 0;
+}
+
+footer {
+    height: 100px;
+}
+
+#in_foot {
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    float: left;
+}
+
+#foot_logo {
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin-left: 150px;
+}
+
+#foot_logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#sns_con {
+    width: 400px;
+    height: 100%;
+    float: right;
+}
+
+.sns {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.sns img {
+    width: 100%;
+    height: 100%;
+}
+
+.sns:nth-child(2) {
+    margin: 25px 5px 0;
+}
+
+#copy {
+    width: 800px;
+    height: 100%;
+    float: left;
+    margin-left: 200px;
+    text-align: center;
+    font: 12px / 100px '';
+}
+
+#top_btn {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    right: 50px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 50px;
+}
